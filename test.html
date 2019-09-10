@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<style>
+    .img_visible {
+        margin-left: -8px;
+        min-width: 9px;
+    }
+
+    .img_invisible {
+        margin-left: -8px;
+    }
+
+    .collage_i {
+        position: relative;
+        float: left;
+        margin: 0 0 4px 4px;
+    }
+    .collage_cnt {
+        overflow: hidden;
+        border-radius: 2px;
+    }
+</style>
+
+    <div class="collage_i" style="width: 200px; height: 288px;">
+        <div class="collage_cnt">
+            <img class="img_visible" src="img/1.jpg" loading="lazy"/>
+        </div>
+    </div>
+    <div class="collage_i" style="width: 200px; height: 288px;">
+        <div class="collage_cnt">
+            <img class="img_invisible" src="img/2.jpg" loading="lazy"/>
+        </div>
+    </div>
+
+    <div class="collage_i" style="width: 200px; height: 288px;">
+        <div class="collage_cnt">
+            <img class="img_invisible" src="img/1.jpg" loading="lazy"/>
+        </div>
+    </div>
+    <div class="collage_i" style="width: 200px; height: 288px;">
+        <div class="collage_cnt">
+            <img class="img_invisible" src="img/2.jpg" loading="lazy"/>
+        </div>
+    </div>
+
+</body>
+</html>
